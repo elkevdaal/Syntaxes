@@ -3,11 +3,11 @@
 # Subject: Syntax Comprehensive Complication Index (CCI) (validated with cci Calculator)
 
 ### Explanation: 
-### The CCI syntax enables the calculation of the overall morbidity #####
-### of a patient after any surgical intervention based on ###############
-### the complication grading by the Clavien-Dindo Classification. #######
-### The CCIreflects the gravity of this overall complication burden on ##
-### the patient on a scale from 0 (no complication) to 100 (death). #####
+### The CCI syntax enables the calculation of the overall morbidity 
+### of a patient after any surgical intervention based on 
+### the complication grading by the Clavien-Dindo Classification. 
+### The CCI reflects the gravity of this overall complication burden on 
+### the patient on a scale from 0 (no complication) to 100 (death). 
 
 cci <- function( X = NULL ) {
   
@@ -32,8 +32,6 @@ cci <- function( X = NULL ) {
   wc3b <- 4550
   wc4a <- 7200
   wc4b <- 8550
-  
-  cci <- 0
   
   ## ***********************
   ## *** STEP 3: CCI formula
